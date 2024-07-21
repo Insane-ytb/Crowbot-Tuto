@@ -36,7 +36,7 @@ module.exports = {
 			} else {
 				const Embed = new Discord.MessageEmbed()
 				Embed.setTitle(`${member.username}`);
-				Embed.setDescription(`<@${member.id}> Ne Possédez Pas De Bannière`);
+				Embed.setDescription(`<@${member.id}> Ne Possède Pas De Bannière`);
 				Embed.setFooter(`${client.config.name}`)
 				Embed.setTimestamp()
 				Embed.setColor(color)
