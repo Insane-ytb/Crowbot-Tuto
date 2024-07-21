@@ -41,7 +41,7 @@ module.exports = {
             })
             const voiceConnectedEmbed = new Discord.MessageEmbed()
                 .setTitle(`__${message.guild.name} ➔ Statistiques__`)
-                .setURL('https://github.com/4wip')
+                .setURL('https://discord.gg/RM9HKMbpS8')
                 //.setThumbnail(guild.iconURL({dynamic: true}))
                 .setDescription(`
 - ${message.guild.memberCount > 1 ? '*Membres*' : '*Membre*'} *sur le serveur :* **${message.guild.memberCount}** <:membres:1264636824152707073>
@@ -62,7 +62,7 @@ module.exports = {
             let embed = new Discord.MessageEmbed()
                 .setTimestamp()
 				.setTitle(`__${message.guild.name} ➔ Statistiques Salon Vocaux__`)
-				.setURL('https://github.com/4wip')
+				.setURL('https://discord.gg/RM9HKMbpS8')
 				.setThumbnail(guild.iconURL({dynamic: true}))
                 .setDescription(`- *Il y a actuellement* **${message.guild.members.cache.filter(m => m.voice.channel).size} ${message.guild.members.cache.filter(m => m.voice.channel).size  > 1 ? 'Personnes' : 'Personne'}** *en vocal sur le serveur.* <:vocal:1264637104026157056>`)
                 .setColor(color)
@@ -110,7 +110,7 @@ module.exports = {
                     let embed = new Discord.MessageEmbed()
                         .setTimestamp()
                         .setTitle(`__${message.guild.name} ➔ Statistiques__`)
-                        .setURL('https://github.com/4wip')
+                        .setURL('https://discord.gg/RM9HKMbpS8')
 						.setThumbnail(guild.iconURL({dynamic: true}))
                         .setDescription(`- *Il y a actuellement* **${message.guild.members.cache.filter(m => m.voice.channel).size} ${message.guild.members.cache.filter(m => m.voice.channel).size  > 1 ? 'Personnes' : 'Personne'}** *en vocal sur le serveur.* <:vocal:1264637104026157056>`)
                         .setColor(color)
