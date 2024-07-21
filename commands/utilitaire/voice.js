@@ -44,9 +44,9 @@ module.exports = {
                 .setURL('https://github.com/4wip')
                 //.setThumbnail(guild.iconURL({dynamic: true}))
                 .setDescription(`
-- ${message.guild.memberCount > 1 ? '*Membres*' : '*Membre*'} *sur le serveur :* **${message.guild.memberCount}** <:4_membre:1220474644004339713>
+- ${message.guild.memberCount > 1 ? '*Membres*' : '*Membre*'} *sur le serveur :* **${message.guild.memberCount}** <:membres:1264636824152707073>
 - ${message.guild.members.cache.filter(m => m.user.presence.status !== 'offline').size > 1 ? '*Membres*' : '*Membre*'} *en ligne :* **${message.guild.members.cache.filter(m => m.user.presence.status !== 'offline').size}** <a:4_terre:1220445710223151217>
-- ${message.guild.members.cache.filter(m => m.voice.channel).size  > 1 ? '*Membres*' : '*Membre*'} *en vocal :* **${message.guild.members.cache.filter(m => m.voice.channel).size}** <:4_vocal:1217007411068669963>
+- ${message.guild.members.cache.filter(m => m.voice.channel).size  > 1 ? '*Membres*' : '*Membre*'} *en vocal :* **${message.guild.members.cache.filter(m => m.voice.channel).size}** <:vocal:1264637104026157056>
 - ${message.guild.premiumSubscriptionCount > 1 ? '*Nombre*' : '*Nombres*'} *de boosts :* **${message.guild.premiumSubscriptionCount}** <a:4_boost:1217008346662699098>
 `)
                 .setColor(color)
@@ -64,7 +64,7 @@ module.exports = {
 				.setTitle(`__${message.guild.name} ➔ Statistiques Salon Vocaux__`)
 				.setURL('https://github.com/4wip')
 				.setThumbnail(guild.iconURL({dynamic: true}))
-                .setDescription(`- *Il y à actuellement* **${message.guild.members.cache.filter(m => m.voice.channel).size} ${message.guild.members.cache.filter(m => m.voice.channel).size  > 1 ? 'Personnes' : 'Personne'}** *en vocal sur le serveur.* <:4_vocal:1217007411068669963>`)
+                .setDescription(`- *Il y a actuellement* **${message.guild.members.cache.filter(m => m.voice.channel).size} ${message.guild.members.cache.filter(m => m.voice.channel).size  > 1 ? 'Personnes' : 'Personne'}** *en vocal sur le serveur.* <:vocal:1264637104026157056>`)
                 .setColor(color)
                 .setFooter(`${message.guild.name} #Statistiques`)
 
@@ -95,7 +95,7 @@ module.exports = {
                         .setURL('https://github.com/4wip')
                         .setThumbnail(guild.iconURL({dynamic: true}))
                         .setDescription(` 
-- **${message.guild.members.cache.filter(m => m.voice.channel).size}** ${message.guild.members.cache.filter(m => m.voice.channel).size  > 1 ? '*Personnes*' : '*Personne*'} *en vocal.* <:4_vocal:1217007411068669963>
+- **${message.guild.members.cache.filter(m => m.voice.channel).size}** ${message.guild.members.cache.filter(m => m.voice.channel).size  > 1 ? '*Personnes*' : '*Personne*'} *en vocal.* <:vocal:1264637104026157056>
 - **${mutedMic}** ${mutedMic > 1 ? '*Personnes*' : '*Personne*'} *sont mute micro.* <:4_mutemicro:1217038600039039026>
 - **${mutedCount}** ${mutedCount > 1 ? '*Personnes*' : '*Personne*'} *sont mute casque.* <:4_mutecasque:1217038590744330272>
 - **${streamingCount}** ${streamingCount > 1 ? '*Personnes*' : '*Personne*'} *sont en stream.* <:4_streaming:1217038609518035034>
@@ -112,7 +112,7 @@ module.exports = {
                         .setTitle(`__${message.guild.name} ➔ Statistiques__`)
                         .setURL('https://github.com/4wip')
 						.setThumbnail(guild.iconURL({dynamic: true}))
-                        .setDescription(`- *Il y à actuellement* **${message.guild.members.cache.filter(m => m.voice.channel).size} ${message.guild.members.cache.filter(m => m.voice.channel).size  > 1 ? 'Personnes' : 'Personne'}** *en vocal sur le serveur.* <:4_vocal:1217007411068669963>`)
+                        .setDescription(`- *Il y a actuellement* **${message.guild.members.cache.filter(m => m.voice.channel).size} ${message.guild.members.cache.filter(m => m.voice.channel).size  > 1 ? 'Personnes' : 'Personne'}** *en vocal sur le serveur.* <:vocal:1264637104026157056>`)
                         .setColor(color)
                         .setFooter(`${message.guild.name} #Statistiques`)
 
